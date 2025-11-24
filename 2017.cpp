@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    for(int i=5;i>0;i-=2)
+    {
+        for(int j=0;j<=i;j++)
+        {
+            if(j%2)
+            continue;
+            else{ 
+            if (!j)
+                cout<<"i ="<<i<<",  j="<<j<<endl;
+            else
+                break;}
+        }
+    }
+}
